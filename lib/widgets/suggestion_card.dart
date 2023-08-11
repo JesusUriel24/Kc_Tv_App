@@ -19,9 +19,9 @@ class SuggestionCard extends StatelessWidget{
           children:[
           SizedBox(
             width: 300,
-            height: 50,
+            height: 80,
             child: Text(
-              'en este directo jugaremos fornite junto a a mas stremers',
+              'stremers',
               style: Theme.of(context).textTheme.headlineLarge,
             ),
           ),
@@ -33,9 +33,25 @@ class SuggestionCard extends StatelessWidget{
               style: Theme.of(context).textTheme.headlineLarge,
             ),
           ),
+          SizedBox(
+            width: 300,
+            height: 50,
+            child: Text(
+              'Fecha: 11/08/23',
+              style: Theme.of(context).textTheme.headlineLarge,
+            ),
+          ),
+          SizedBox(
+            width: 300,
+            height: 50,
+            child: Text(
+              'Duracion: 56:36',
+              style: Theme.of(context).textTheme.headlineLarge,
+            ),
+          ),
         ]
-        )
-        
-      ], );
-      }
+      )  
+    ], 
+  );
   }
+}
